@@ -27,6 +27,17 @@
                     <input type="text" placeholder="Enter Your Email" name="email" id="email">
                     <error-output class="Emailerror" for="text"></error-output>
                 </div>
+                <div class="formgroup">
+                    <label for ="party">Choose a date and time</label>
+                    <input type="datetime-local" id ="party " name="bday">
+                    <span class ="validity" ></span>
+                </div>
+                <div>
+                    <label for="salary">Choose Your Salary:</label>
+                    <input type="range" name="salary" id="salary" min="25000"
+                    max="80000" step="100" value="45000">
+                    <output class="salary-output" for="salary">45000</output>
+                </div>
                 <button>Submit</button>
             </form>
             <div>
